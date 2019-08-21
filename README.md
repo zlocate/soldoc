@@ -1,9 +1,14 @@
-<p align="center">
-    <img width="90%" src="soldoc.png">
+<p align="center"><img width="50%" src="soldoc.png">
+
+[![Test Coverage](http://img.shields.io/coveralls/HQ20/soldoc/master.svg)](https://coveralls.io/r/HQ20/soldoc)             [![Build Status](https://img.shields.io/travis/HQ20/soldoc/master.svg)](https://travis-ci.org/HQ20/soldoc)
+[![NPM Downloads](https://img.shields.io/npm/dm/soldoc.svg)](https://www.npmjs.com/package/soldoc)
 </p>
 
-soldoc is a solidity documentation generator. This generator was created due to a need of giving documentation to developers and clients. Thinking about it, we first created this tool to generate an HTML self hosted page, but then we also decided to generate a PDF.
+**soldoc** - is a solidity documentation generator. 
 
+This generator was created due to a need of giving documentation to developers and clients. Thinking about it, we first created this tool to generate an HTML self hosted page, but then we also decided to generate a PDF.
+
+### Demo
 See demo [here](https://soldoc-demo.netlify.com/).
 
 Please note that, there's also a pdf example in `./example` folder. This pdf is a first draft. We intend to have a better template soon and open the opportunity to get new templates.
@@ -22,7 +27,7 @@ Please note that, there's also a pdf example in `./example` folder. This pdf is 
 cd project-folder/
 
 # Install soldoc.
-npm install --save-dev soldoc
+npm i --save-dev soldoc
 
 # Run soldoc.
 soldoc docs/ Sample.sol
